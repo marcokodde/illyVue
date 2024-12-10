@@ -1,15 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="Vue logo" src="@/assets/images/program/machine_1.png">
+  <PageIlly msg="Menu Navigation"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import PageIlly from './components/PageIlly.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    PageIlly
   }
 }
 </script>
